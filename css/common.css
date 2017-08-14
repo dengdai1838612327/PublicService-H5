@@ -88,11 +88,14 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   height: 0;
   visibility: hidden
 }
+*{
+  box-sizing: border-box;
+}
 .all_bg {
   background: url(../images/all_bg.png) 0 0 no-repeat;
   display: inline-block;
   overflow: hidden;
-  background-size: 200px 300px;
+  background-size: 200px 200px;
 }
 .topfixed {
   left: 0;
@@ -116,9 +119,9 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
 .a_city {
   color: #fff;
   display: block;
-  float: left;
+  float: right;
   font-size: 14px;
-  width: 25%;
+  max-width: 50%;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -128,15 +131,13 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
 }
 .a_city i {
   float: left;
-  height: 18px;
+  height: 17px;
   margin-top: 12px;
   width: 14px;
-  background-position: 0 -243px;
+  background-position: -50px 0;
 }
 .a_city span {
   font-size: 14px;
-  float: left;
-  width: 80%;
   overflow: hidden;
   overflow-wrap: normal;
   white-space: nowrap;
@@ -145,16 +146,19 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
 .header .a-back{
   position: absolute;
   display: block;
-  width: 40px;
+  width: 55px;
   height: 45px;
   left: 15px;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 15px;
 }
 .header .a-back:before{
   border: 2px solid #fff;
   position: absolute;
   left: 5px;
   top: 50%;
-  margin-top: -6px;
+  margin-top: -8px;
   display: block;
   content: '';
   width: 12px;
@@ -181,9 +185,49 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 50px;
   background-color: #fff;
   border-top: 1px solid #dbdbdb;
   z-index: 8;
+}
+.footer ul{
+  overflow: hidden;
+}
+.footer ul li{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.footer ul li i.all_bg{
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 5px auto 3px;
+}
+.footer ul li span{
+  font-size: 13px;
+  color: #666;
+}
+.footer ul li.on span{
+  color: #3d96ff;
+}
+.footer ul li i.tab1{
+  background-position: -24px 0;
+}
+.footer ul li i.tab2{
+  background-position: -23px -26px;
+}
+.footer ul li i.tab3{
+  background-position: -23px -52px;
+}
+.footer ul li.on i.tab1{
+  background-position: 0 0;
+}
+.footer ul li.on i.tab2{
+  background-position: 0 -26px;
+}
+.footer ul li.on i.tab3{
+  background-position: 0 -51px;
 }
 .fl{
   float: left;

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*首页*/
+.banner img{
+  display: block;
+  width: 100%;
+}
+.fee-type {
+    width: 100%;
+    background: #fff;
+    padding: 10px 0 0;
+}
+.fee-type .ul-list {
+    overflow: hidden;
+    text-align: center;
+    font-family: 微软雅黑;
+}
+.fee-type .ul-list li {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-top: 16px;
+    width: 50%;
+    height: 86px;
+    border-right: 1px solid #eee;
+}
+.fee-type .ul-list li .bd-no {
+    border: none;
+}
+.ul-list div {
+    border-bottom: 1px solid #eee;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 90%;
+}
+.ul-list li a {
+    color: #666;
+    display: block;
+}
+.ul-list li span {
+    display: block;
+}
