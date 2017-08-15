@@ -192,6 +192,11 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   width: 55%;
   font-weight: 400
 }
+.header .link{
+  float: right;
+  color: #fff;
+  font-size: 14px;
+}
 .content{
   padding: 45px 0 0;
 }

@@ -256,7 +256,7 @@ border-bottom: none;
 .fee-tag .tag-tit{
   height: 45px;
   line-height: 45px;
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 15px;
   color: #666;
 }
@@ -272,7 +272,7 @@ border-bottom: none;
   border-radius: 3px;
   background-color: #fff;
   color: #666;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   margin: 7px 15px 7px 0;
   position: relative;
@@ -334,4 +334,45 @@ border-bottom: none;
 .fit-height {
   height: 630px;
 }
+}
+/*缴费记录查询*/
+.fee-record .fee-head{
+  margin-top: 20px;
+}
+.fee-img span{
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+.fee-record .form-list li label{
+  width: 100px;
+  margin-right: 0;
+  text-align: left;
+  text-align-last: left;
+  color: #666;
+}
+.fee-record .form-list li span{
+  display: inline-block;
+  float: right;
+  text-align: right;
+  color: #666;
+  margin-right: 15px;
+  width: 60%;
+  overflow: hidden;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.fee-record .form-list li span.f16{
+  font-size: 16px;
+}
+.main-tips{
+  text-align: center;
+}
+.main-tips p{
+  color: #999;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
 }
