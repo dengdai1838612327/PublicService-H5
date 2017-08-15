@@ -139,3 +139,34 @@ border-bottom: none;
   top: 6rem
 }
 }
+/*选择缴费单位*/
+.unit-list h4 {
+    font-size: 13px;
+    color: #666;
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+.unit-list ul{
+    background: #fff;
+}
+.unit-list ul li {
+    margin-left: 15px;
+    height: 45px;
+    color: #A5A5A5;
+    line-height: 45px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.unit-list ul li:last-child{
+  border-bottom: none;
+}
+.unit-list ul li a {
+    color: #666;
+    float: left;
+    width: 95%;
+    font-size: 13px;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
