@@ -192,6 +192,9 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   width: 55%;
   font-weight: 400
 }
+.content{
+  padding: 45px 0 0;
+}
 .footer{
   position: fixed;
   bottom: 0;
@@ -251,19 +254,21 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   position: absolute;
   display: inline-block;
   width: 15px;
-  height: 30px;
-  right: 5px;
+  height: 45px;
+  right: 10px;
+  top: 0;
+  z-index: -1;
 }
 .icon-down:before,
 .icon-right:before{
-  border: 1px solid #666;
+  border: 2px solid #ccc;
   position: absolute;
   left: 0;
   top: 50%;
   display: inline-block;
   content: '';
-  width: 7px;
-  height: 7px;
+  width: 10px;
+  height: 10px;
   border-top: none;
   border-right: none;
 }
@@ -273,7 +278,7 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   -webkit-transform: rotate(-45deg);
 }
 .icon-right:before{
-  margin-top: -2px;
+  margin-top: -5px;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
