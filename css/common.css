@@ -168,6 +168,17 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+.header .a-close{
+  display: block;
+  float: left;
+}
+.header .a-close i{
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-position: 0 -143px;
+  margin: 14px 0;
+}
 .header h2 {
   color: #fff;
   font-size: 17px;
