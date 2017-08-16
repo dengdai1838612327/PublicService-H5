@@ -81,7 +81,7 @@
           <span>房东</span>
           <i class="all_bg sel"></i>
         </li>
-        <li class="add">
+        <li class="add" onclick="return tag_modal();">
           <i class="all_bg"></i>
         </li>
       </ul>
@@ -94,5 +94,39 @@
 <div class="bottom-bg">
   <img src="images/bottom-bg.png">
 </div>
+<div class="bg-gray"></div>
+<div id="modal" class="add-modal" style="display: none;">
+  <div class="modal-con">
+    <h4>请输入标签</h4>
+    <input type="text" placeholder="最多不超过5个汉字">
+    <p class="error">不能输入相同的标签名称</p>
+    <!-- <p class="error">超过字数限制</p> -->
+  </div>
+  <div class="modal-btn">
+    <span class="yes wp100">确认</span>
+  </div>
+</div>
+<div id="modal" class="confirm-modal" style="display: none;">
+  <div class="modal-con">
+    <!-- <p>删除标签将一并抹去该标签下所有缴费信息，是否继续？</p> -->
+    <p>最多只能添加8个标签，长按标签进行删除</p>
+  </div>
+  <div class="modal-btn">
+    <span class="no">取消</span>
+    <span class="yes">确认</span>
+    <!-- <span class="yes wp100">确认</span> -->
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+function tag_modal() {
+  var bggray = $(".bg-gray");
+  var modal = $("#modal");
+  bggray.css("height", window.screen.height);
+  bggray.css("width", window.screen.width);
+  bggray.show();
+  modal.show();
+}
+</script>
 </body>
 </html>
