@@ -116,7 +116,8 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   font-family: 微软雅黑;
   overflow: hidden;
 }
-.a_city {
+.a_city,
+.a_set {
   color: #fff;
   display: block;
   float: right;
@@ -142,6 +143,12 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   overflow-wrap: normal;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.a_set i{
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  background-position: 0 -162px;
 }
 .header .a-back{
   position: absolute;
@@ -234,10 +241,10 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   background-position: -24px 0;
 }
 .footer ul li i.tab2{
-  background-position: -23px -26px;
+  background-position: -24px -26px;
 }
 .footer ul li i.tab3{
-  background-position: -23px -52px;
+  background-position: -24px -52px;
 }
 .footer ul li.on i.tab1{
   background-position: 0 0;
