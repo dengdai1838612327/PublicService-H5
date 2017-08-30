@@ -532,3 +532,13 @@ border-bottom: none;
   font-size: 14px;
   color: #3d91fb;
 }
+/*未开通*/
+.not-open-img{
+  text-align: center;
+  margin-top: 50px;
+}
+.not-open-text{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
