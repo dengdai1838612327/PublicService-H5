@@ -661,18 +661,17 @@ border-bottom: none;
 }
 .recharge ul{
   overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 .recharge ul li{
   float: left;
-  width: 85px;
+  width: 29.33%;
   margin: 10px 2%;
   color: #32a1ef;
 }
 .recharge ul li .yuanjia{
   display: block;
+  width: 85px;
+  margin: 0 auto;
   height: 40px;
   line-height: 40px;
   text-align: center;
@@ -689,6 +688,8 @@ border-bottom: none;
 }
 .recharge ul li .youhui{
   display: block;
+  width: 85px;
+  margin: 0 auto;
   height: 25px;
   line-height: 25px;
   text-align: center;
