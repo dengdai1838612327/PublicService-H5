@@ -34,7 +34,7 @@
       <ul class="form-list">
         <li class="unit">
           <label>缴费单位</label>
-          <a href="###">请选择缴费单位请选择缴费单位请选择缴费单位请选择缴费单位请选择缴费单位请选择缴费单位<em class="icon-right"></em></a>
+          <a href="###" onclick="return city_tips();">请选择缴费单位请选择缴费单位请选择缴费单位请选择缴费单位请选择缴费单位请选择缴费单位<em class="icon-right"></em></a>
         </li>
         <li>
           <label>户号</label>
@@ -117,11 +117,27 @@
     <!-- <span class="yes wp100">确认</span> -->
   </div>
 </div>
+<div id="modal" class="confirm-modal city-tips-modal" style="display: none;">
+  <div class="modal-con">
+    <p>请先选择城市</p>
+  </div>
+  <div class="modal-btn">
+    <span class="yes wp100">确认</span>
+  </div>
+</div>
 <script src="js/jquery.min.js"></script>
 <script>
 function tag_modal() {
   var bggray = $(".bg-gray");
   var modal = $("#modal");
+  bggray.css("height", window.screen.height);
+  bggray.css("width", window.screen.width);
+  bggray.show();
+  modal.show();
+}
+function city_tips() {
+  var bggray = $(".bg-gray");
+  var modal = $(".city-tips-modal");
   bggray.css("height", window.screen.height);
   bggray.css("width", window.screen.width);
   bggray.show();
